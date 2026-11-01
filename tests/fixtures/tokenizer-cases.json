@@ -1,0 +1,623 @@
+{
+ "generator": "huggingface tokenizers 0.23.1",
+ "tokenizer": "Qwen/Qwen2.5-0.5B-Instruct@7ae557604adf67be50417f59c2c2f167def9a775 tokenizer.json sha256 c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+ "cases": [
+  {
+   "text": "Hello, world!",
+   "ids": [
+    9707,
+    11,
+    1879,
+    0
+   ]
+  },
+  {
+   "text": "",
+   "ids": []
+  },
+  {
+   "text": " ",
+   "ids": [
+    220
+   ]
+  },
+  {
+   "text": "  leading and trailing  ",
+   "ids": [
+    220,
+    6388,
+    323,
+    27748,
+    256
+   ]
+  },
+  {
+   "text": "I'm sure you'll LOVE it, they've said; we'd go.",
+   "ids": [
+    40,
+    2776,
+    2704,
+    498,
+    3278,
+    39735,
+    432,
+    11,
+    807,
+    3003,
+    1053,
+    26,
+    582,
+    4172,
+    728,
+    13
+   ]
+  },
+  {
+   "text": "THEY'RE HERE'S",
+   "ids": [
+    17229,
+    56,
+    94153,
+    19249,
+    13272
+   ]
+  },
+  {
+   "text": "Numbers: 1234567890 3.14159 -42 1e10",
+   "ids": [
+    27237,
+    25,
+    220,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    15,
+    220,
+    18,
+    13,
+    16,
+    19,
+    16,
+    20,
+    24,
+    481,
+    19,
+    17,
+    220,
+    16,
+    68,
+    16,
+    15
+   ]
+  },
+  {
+   "text": "Grüße aus Köln — naïve café",
+   "ids": [
+    6464,
+    2391,
+    23455,
+    9421,
+    141377,
+    1959,
+    94880,
+    586,
+    51950
+   ]
+  },
+  {
+   "text": "日本語のテキストと中文混合。",
+   "ids": [
+    101059,
+    102819,
+    15767,
+    56833,
+    61803,
+    70534,
+    19182,
+    104811,
+    105063,
+    1773
+   ]
+  },
+  {
+   "text": "emoji 🙂👍🏽 and ZWJ 👩‍👩‍👧",
+   "ids": [
+    37523,
+    27484,
+    144349,
+    145375,
+    323,
+    1863,
+    54,
+    41,
+    61804,
+    102,
+    378,
+    235,
+    145233,
+    378,
+    235,
+    145665
+   ]
+  },
+  {
+   "text": "line1\nline2\r\n\r\nline3\n\n\n",
+   "ids": [
+    1056,
+    16,
+    198,
+    1056,
+    17,
+    871,
+    1056,
+    18,
+    1406
+   ]
+  },
+  {
+   "text": "tabs\tand\t\tspaces    end",
+   "ids": [
+    30993,
+    52477,
+    197,
+    1903,
+    27338,
+    262,
+    835
+   ]
+  },
+  {
+   "text": "code: def f(x):\n    return x**2  # comment\n",
+   "ids": [
+    1851,
+    25,
+    707,
+    282,
+    2075,
+    982,
+    262,
+    470,
+    856,
+    334,
+    17,
+    220,
+    671,
+    3980,
+    198
+   ]
+  },
+  {
+   "text": "é composed vs é",
+   "ids": [
+    963,
+    23415,
+    6165,
+    3958
+   ]
+  },
+  {
+   "text": "URL https://example.com/a?b=c&d=e#f",
+   "ids": [
+    3144,
+    3703,
+    1110,
+    8687,
+    905,
+    14186,
+    30,
+    65,
+    19535,
+    5,
+    67,
+    40391,
+    2,
+    69
+   ]
+  },
+  {
+   "text": "!!!???...,,,;;;",
+   "ids": [
+    12069,
+    33015,
+    1112,
+    60723,
+    36328
+   ]
+  },
+  {
+   "text": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+   "ids": [
+    69440,
+    69440,
+    69440,
+    69440,
+    69440,
+    69440,
+    69440,
+    69440,
+    69440,
+    69440,
+    69440,
+    69440,
+    69440,
+    69440,
+    69440,
+    69440,
+    69440,
+    69440,
+    69440,
+    69440,
+    69440,
+    69440,
+    69440,
+    69440,
+    69440,
+    69440,
+    69440,
+    69440,
+    69440,
+    69440,
+    69440,
+    69440,
+    69440,
+    69440,
+    69440,
+    69440,
+    69440,
+    28458
+   ]
+  },
+  {
+   "text": "Ünïcödé ÀÉÎÕÜ ß ẞ",
+   "ids": [
+    52491,
+    77,
+    37572,
+    66,
+    2956,
+    128505,
+    64281,
+    26789,
+    71807,
+    144335,
+    52491,
+    1683,
+    253,
+    220,
+    149975
+   ]
+  },
+  {
+   "text": "مرحبا بالعالم",
+   "ids": [
+    124122,
+    29825,
+    124671,
+    124476,
+    129634
+   ]
+  },
+  {
+   "text": "Здравствуй, мир!",
+   "ids": [
+    35451,
+    6949,
+    26988,
+    20200,
+    82580,
+    11,
+    137144,
+    0
+   ]
+  },
+  {
+   "text": "x  \n  y",
+   "ids": [
+    87,
+    2303,
+    220,
+    379
+   ]
+  },
+  {
+   "text": " nbsp em space",
+   "ids": [
+    4102,
+    5674,
+    378,
+    225,
+    336,
+    3550
+   ]
+  },
+  {
+   "text": "'ſ 'S 'Ll it'S DON'T we'Re",
+   "ids": [
+    6,
+    144815,
+    364,
+    50,
+    364,
+    43,
+    75,
+    432,
+    13272,
+    44273,
+    17323,
+    582,
+    49427
+   ]
+  },
+  {
+   "text": "K kelvin 'K",
+   "ids": [
+    42,
+    48228,
+    9603,
+    364,
+    42
+   ]
+  },
+  {
+   "text": "İstanbul ǅ ﬁ ligature",
+   "ids": [
+    47780,
+    45116,
+    220,
+    131,
+    227,
+    32495,
+    70731,
+    28313,
+    1568
+   ]
+  },
+  {
+   "text": "xy z w",
+   "ids": [
+    87,
+    126,
+    227,
+    88,
+    378,
+    101,
+    89,
+    378,
+    102,
+    86
+   ]
+  },
+  {
+   "text": "1️⃣ 2² ½ ٣",
+   "ids": [
+    16,
+    30543,
+    158,
+    225,
+    96,
+    220,
+    17,
+    29456,
+    220,
+    26062,
+    220,
+    149,
+    96
+   ]
+  },
+  {
+   "text": "<|im_start|> literal text",
+   "ids": [
+    151644,
+    23141,
+    1467
+   ]
+  },
+  {
+   "text": "    \n\n    indented\n\t\n",
+   "ids": [
+    14808,
+    262,
+    1257,
+    15864,
+    17642
+   ]
+  },
+  {
+   "text": "a\r\rb\r\n",
+   "ids": [
+    64,
+    201,
+    201,
+    65,
+    319
+   ]
+  },
+  {
+   "text": "ok​‍﻿zw",
+   "ids": [
+    562,
+    15692,
+    378,
+    235,
+    3225,
+    30781
+   ]
+  },
+  {
+   "text": "﻿.a",
+   "ids": [
+    3225,
+    13,
+    64
+   ]
+  },
+  {
+   "text": ".a",
+   "ids": [
+    126,
+    227,
+    5849
+   ]
+  },
+  {
+   "text": "a﻿b",
+   "ids": [
+    64,
+    3225,
+    65
+   ]
+  },
+  {
+   "text": "a b",
+   "ids": [
+    64,
+    220,
+    126,
+    227,
+    65
+   ]
+  },
+  {
+   "text": "x　\u001e",
+   "ids": [
+    87,
+    22441,
+    126,
+    227,
+    218
+   ]
+  },
+  {
+   "text": "  ﻿",
+   "ids": [
+    220,
+    75780
+   ]
+  },
+  {
+   "text": "   a",
+   "ids": [
+    378,
+    101,
+    378,
+    102,
+    264
+   ]
+  },
+  {
+   "text": " ᠎ x",
+   "ids": [
+    124999,
+    222,
+    123970,
+    236,
+    856
+   ]
+  },
+  {
+   "text": "   .",
+   "ids": [
+    4102,
+    378,
+    107,
+    52133,
+    253,
+    13
+   ]
+  },
+  {
+   "text": "a\u000b\fb",
+   "ids": [
+    64,
+    199,
+    200,
+    65
+   ]
+  }
+ ],
+ "chats": {
+  "note": "inputTokens = prompt_tokens reported by Ollama 0.40.3 (model qwen2.5:0.5b, digest a8b0c5157701) via /v1/chat/completions on 2026-10-20",
+  "cases": [
+   {
+    "messages": [
+     {
+      "role": "user",
+      "content": "Hello"
+     }
+    ],
+    "inputTokens": 30
+   },
+   {
+    "messages": [
+     {
+      "role": "system",
+      "content": "Be brief."
+     },
+     {
+      "role": "user",
+      "content": "Hello there, how are you?"
+     }
+    ],
+    "inputTokens": 23
+   },
+   {
+    "messages": [
+     {
+      "role": "user",
+      "content": "Hi"
+     },
+     {
+      "role": "assistant",
+      "content": "Hello! How can I help?"
+     },
+     {
+      "role": "user",
+      "content": "Tell me a joke about cats.\nKeep it short."
+     }
+    ],
+    "inputTokens": 58
+   },
+   {
+    "messages": [
+     {
+      "role": "user",
+      "content": "Grüße 日本語 🙂 code:\n  def f(x): return x"
+     }
+    ],
+    "inputTokens": 45
+   },
+   {
+    "messages": [
+     {
+      "role": "system",
+      "content": "S1"
+     },
+     {
+      "role": "user",
+      "content": "a"
+     },
+     {
+      "role": "assistant",
+      "content": "b"
+     },
+     {
+      "role": "user",
+      "content": "c"
+     }
+    ],
+    "inputTokens": 28
+   }
+  ]
+ },
+ "differential": {
+  "note": "3350 texts (whitespace/format code points in templates + seeded random mixes) encoded by HF tokenizers 0.23.1; regression for JS \\s vs Unicode White_Space",
+  "seed": 7
+ }
+}

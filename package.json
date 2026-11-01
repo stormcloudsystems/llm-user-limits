@@ -1,0 +1,15 @@
+{
+  "name": "llm-user-limits",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "bin": { "llm-user-limits": "bin/gateway.mjs" },
+  "scripts": {
+    "start": "node bin/gateway.mjs",
+    "stub": "node stub/upstream-stub.mjs",
+    "test": "node --test 'tests/unit/*.test.mjs' && node --test --test-concurrency=1 'tests/http/*.test.mjs'",
+    "test:real": "node tests/real-upstream.mjs"
+  }
+}
